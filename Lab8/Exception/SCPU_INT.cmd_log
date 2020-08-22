@@ -1,0 +1,1 @@
+sch2hdl -sympath C:/org/Exp08/Exception/Code -intstyle ise -family kintex7 -verilog SCPU_INT_drc.vf -w C:/org/Exp08/Exception/Code/SCPU_INT.sch 

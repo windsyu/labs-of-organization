@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Multi_CPU">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-5-20T2:20:32</timestamp>
+    <attr value="Multi_CPU" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-416" name="clk" />
+    <pin polarity="Input" x="0" y="-384" name="reset" />
+    <pin polarity="Output" x="0" y="-336" name="inst_out(31:0)" />
+    <pin polarity="Input" x="0" y="-272" name="INT" />
+    <pin polarity="Output" x="448" y="-384" name="mem_w" />
+    <pin polarity="Output" x="448" y="-144" name="state(4:0)" />
+    <pin polarity="Output" x="0" y="-80" name="PC_out(31:0)" />
+    <pin polarity="Output" x="448" y="-320" name="Addr_out(31:0)" />
+    <pin polarity="Output" x="448" y="-192" name="Data_out(31:0)" />
+    <pin polarity="Input" x="448" y="-256" name="Data_in(31:0)" />
+    <pin polarity="Input" x="448" y="-16" name="MIO_ready" />
+    <pin polarity="Output" x="448" y="-64" name="CPU_MIO" />
+    <graph>
+        <rect style="linecolor:rgb(0,0,255);fillcolor:rgb(255,170,255);fillstyle:Solid" width="320" x="64" y="-448" height="448" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin clk" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-384" type="pin reset" />
+        <line x2="0" y1="-384" y2="-384" x1="64" />
+        <line x2="64" y1="-336" y2="-336" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-272" type="pin INT" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-384" type="pin mem_w" />
+        <line x2="448" y1="-384" y2="-384" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-144" type="pin state(4:0)" />
+        <line x2="448" y1="-144" y2="-144" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="216" y="-336" type="pin inst_out(31:0)" />
+        <line x2="64" y1="-80" y2="-80" x1="0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="212" y="-76" type="pin PC_out(31:0)" />
+        <line x2="448" y1="-320" y2="-320" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-320" type="pin Addr_out(31:0)" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="224" y="-444" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-192" type="pin Data_out(31:0)" />
+        <line x2="448" y1="-192" y2="-192" x1="384" />
+        <line x2="384" y1="-256" y2="-256" x1="448" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="228" y="-256" type="pin Data_in(31:0)" />
+        <line x2="448" y1="-16" y2="-16" x1="384" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="260" y="-16" type="pin MIO_ready" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-64" type="pin CPU_MIO" />
+        <line x2="448" y1="-64" y2="-64" x1="384" />
+    </graph>
+</symbol>

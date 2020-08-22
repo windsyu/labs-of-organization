@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/climberpi/Code/OExp12-MSOC/M_datapath_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="M_datapath_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/M_datapath_test/PC_Current" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_Current[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Current[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/Inst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/M_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/overflow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/MIO_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MIO_ready</obj_property>
+      <obj_property name="ObjectShortName">MIO_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/IorD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/IRWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRWrite</obj_property>
+      <obj_property name="ObjectShortName">IRWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/RegDst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/MemtoReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/ALUSrcA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/ALUSrcB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrcB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/PCSource" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSource[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/PCWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/PCWriteCond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWriteCond</obj_property>
+      <obj_property name="ObjectShortName">PCWriteCond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/Branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/ALU_operation" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_operation[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_operation[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/data2CPU" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data2CPU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data2CPU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_datapath_test/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

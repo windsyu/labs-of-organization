@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/climberpi/Code/OExp12-MSOC/M_ctrl_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="M_ctrl_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/M_ctrl_test/MemRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/ALU_operation" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_operation[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_operation[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/state_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/CPU_MIO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CPU_MIO</obj_property>
+      <obj_property name="ObjectShortName">CPU_MIO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/IorD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/IRWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRWrite</obj_property>
+      <obj_property name="ObjectShortName">IRWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/RegDst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/ALUSrcA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/MemtoReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/ALUSrcB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrcB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/PCSource" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSource[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/PCWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/PCWriteCond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWriteCond</obj_property>
+      <obj_property name="ObjectShortName">PCWriteCond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/Branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/Inst_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Inst_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/overflow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/MIO_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MIO_ready</obj_property>
+      <obj_property name="ObjectShortName">MIO_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M_ctrl_test/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+</wave_config>
