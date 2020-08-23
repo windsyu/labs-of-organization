@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\pc\Desktop\OExp12-MSOC\top.ncd
-OUTFILE=C:\Users\pc\Desktop\OExp12-MSOC\top.bit
+INFILE=F:\labs-of-organization\lab12\top.ncd
+OUTFILE=F:\labs-of-organization\lab12\top.bit
 FAMILY=Kintex7
 PART=xc7k160t-2lffg676
-WORKINGDIR=C:\Users\pc\Desktop\OExp12-MSOC
+WORKINGDIR=F:\labs-of-organization\lab12
 LICENSE=WebPack
 USER_INFO=__0_0_0

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: top.prj
 
@@ -108,90 +108,90 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\xor32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\xor32.v" into library work
 Parsing module <xor32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\srl32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\srl32.v" into library work
 Parsing module <srl32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\slt32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\slt32.v" into library work
 Parsing module <slt32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\SignalExt_32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\SignalExt_32.v" into library work
 Parsing module <SignalExt_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\or_bit_32 .v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\or_bit_32 .v" into library work
 Parsing module <or_bit_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\or32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\or32.v" into library work
 Parsing module <or32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\nor32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\nor32.v" into library work
 Parsing module <nor32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX8T1_32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX8T1_32.v" into library work
 Parsing module <MUX8T1_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\and32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\and32.v" into library work
 Parsing module <and32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\addc_32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\addc_32.v" into library work
 Parsing module <ADC32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Regs.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Regs.v" into library work
 Parsing module <Regs>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\REG32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\REG32.v" into library work
 Parsing module <REG32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX4T1_5.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX4T1_5.v" into library work
 Parsing module <MUX4T1_5>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX4T1_32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX4T1_32.v" into library work
 Parsing module <MUX4T1_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX2T1_32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX2T1_32.v" into library work
 Parsing module <MUX2T1_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MC14495_ZJU.vf" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MC14495_ZJU.vf" into library work
 Parsing module <MC14495_ZJU>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Ext_imm16.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Ext_imm16.v" into library work
 Parsing module <Ext_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\ALU.vf" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\ALU.vf" into library work
 Parsing module <ALU>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\SSeg_map.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\SSeg_map.v" into library work
 Parsing module <SSeg_map>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Seg_map.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Seg_map.v" into library work
 Parsing module <Seg_map>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Scansync.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Scansync.v" into library work
 Parsing module <ScanSync>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\P2S_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\P2S_IO.v" into library work
 Parsing module <P2S>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\M_datapath.v" into library work
 Parsing module <M_datapath>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\M_ctrl.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\M_ctrl.v" into library work
 Parsing module <M_ctrl>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX8T1_8.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX8T1_8.v" into library work
 Parsing module <MUX8T1_8>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX2T1_8.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX2T1_8.v" into library work
 Parsing module <MUX2T1_8>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MUX2T1_64.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MUX2T1_64.v" into library work
 Parsing module <MUX2T1_64>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\LED_P2S_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\LED_P2S_IO.v" into library work
 Parsing module <LED_P2S>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\HexTo8SEG.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\HexTo8SEG.v" into library work
 Parsing module <HexTo8SEG>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\SSeg7_Dev.vf" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\SSeg7_Dev.vf" into library work
 Parsing module <SSeg7_Dev>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\SPIO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\SPIO.v" into library work
 Parsing module <SPIO>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\SEnter_2_32_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\SEnter_2_32_IO.v" into library work
 Parsing module <SEnter_2_32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Seg7_Dev.vf" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Seg7_Dev.vf" into library work
 Parsing module <MC14495_ZJU_MUSER_Seg7_Dev>.
 Parsing module <Seg7_Dev>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\SAnti_jitter_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\SAnti_jitter_IO.v" into library work
 Parsing module <SAnti_jitter>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\PIO_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\PIO_IO.v" into library work
 Parsing module <PIO>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Multi_CPU.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Multi_CPU.v" into library work
 Parsing module <Multi_CPU>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Multi_8CH32.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Multi_8CH32.v" into library work
 Parsing module <Multi_8CH32>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\MIO_BUS_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\MIO_BUS_IO.v" into library work
 Parsing module <MIO_BUS>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\ipcore_dir\RAM_B.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\ipcore_dir\RAM_B.v" into library work
 Parsing module <RAM_B>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\Counter_3_IO.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\Counter_3_IO.v" into library work
 Parsing module <Counter_x>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\clk_div.v" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\clk_div.v" into library work
 Parsing module <clk_div>.
-Analyzing Verilog file "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" into library work
+Analyzing Verilog file "F:\labs-of-organization\lab12\top.vf" into library work
 Parsing module <MC14495_ZJU_MUSER_top>.
 Parsing module <Seg7_Dev_MUSER_top>.
 Parsing module <SSeg7_Dev_MUSER_top>.
@@ -204,31 +204,31 @@ Parsing module <top>.
 Elaborating module <top>.
 
 Elaborating module <SEnter_2_32>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" Line 450: Assignment to Bi ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" Line 451: Assignment to blink ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\top.vf" Line 450: Assignment to Bi ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\top.vf" Line 451: Assignment to blink ignored, since the identifier is never used
 
 Elaborating module <Multi_CPU>.
 
 Elaborating module <M_ctrl>.
 
 Elaborating module <M_datapath>.
-WARNING:HDLCompiler:413 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 55: Result of 16-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 55: Assignment to imm ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 56: Assignment to directAddr ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "F:\labs-of-organization\lab12\M_datapath.v" Line 55: Result of 16-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\M_datapath.v" Line 55: Assignment to imm ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\M_datapath.v" Line 56: Assignment to directAddr ignored, since the identifier is never used
 
 Elaborating module <REG32>.
 
 Elaborating module <MUX4T1_5>.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 72: Size mismatch in connection of port <I1>. Formal port size is 6-bit while actual signal size is 5-bit.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 73: Size mismatch in connection of port <I2>. Formal port size is 6-bit while actual signal size is 5-bit.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 74: Size mismatch in connection of port <I3>. Formal port size is 6-bit while actual signal size is 5-bit.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 76: Size mismatch in connection of port <o>. Formal port size is 6-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\M_datapath.v" Line 72: Size mismatch in connection of port <I1>. Formal port size is 6-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\M_datapath.v" Line 73: Size mismatch in connection of port <I2>. Formal port size is 6-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\M_datapath.v" Line 74: Size mismatch in connection of port <I3>. Formal port size is 6-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\M_datapath.v" Line 76: Size mismatch in connection of port <o>. Formal port size is 6-bit while actual signal size is 32-bit.
 
 Elaborating module <MUX4T1_32>.
 
 Elaborating module <Regs>.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 92: Size mismatch in connection of port <Wt_addr>. Formal port size is 5-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\M_datapath.v" Line 92: Size mismatch in connection of port <Wt_addr>. Formal port size is 5-bit while actual signal size is 32-bit.
 
 Elaborating module <Ext_32>.
 
@@ -251,7 +251,7 @@ Elaborating module <srl32>.
 Elaborating module <slt32>.
 
 Elaborating module <or_bit_32>.
-WARNING:HDLCompiler:413 - "C:\Users\pc\Desktop\OExp12-MSOC\or_bit_32 .v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "F:\labs-of-organization\lab12\or_bit_32 .v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <MUX8T1_32>.
 
@@ -262,13 +262,13 @@ Elaborating module <INV>.
 Elaborating module <AND3>.
 
 Elaborating module <OR2>.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v" Line 138: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\M_datapath.v" Line 138: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <RAM_B>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
 
 Elaborating module <MIO_BUS>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\MIO_BUS_IO.v" Line 21: Empty module <MIO_BUS> remains a black box.
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\MIO_BUS_IO.v" Line 21: Empty module <MIO_BUS> remains a black box.
 
 Elaborating module <Multi_8CH32>.
 
@@ -279,7 +279,7 @@ Elaborating module <SSeg7_Dev_MUSER_top>.
 Elaborating module <MUX2T1_64>.
 
 Elaborating module <P2S>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\P2S_IO.v" Line 21: Empty module <P2S> remains a black box.
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\P2S_IO.v" Line 21: Empty module <P2S> remains a black box.
 
 Elaborating module <HexTo8SEG>.
 
@@ -294,22 +294,22 @@ Elaborating module <OR3>.
 Elaborating module <AND2>.
 
 Elaborating module <SSeg_map>.
-WARNING:HDLCompiler:189 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" Line 355: Size mismatch in connection of port <Disp_num>. Formal port size is 32-bit while actual signal size is 64-bit.
+WARNING:HDLCompiler:189 - "F:\labs-of-organization\lab12\top.vf" Line 355: Size mismatch in connection of port <Disp_num>. Formal port size is 32-bit while actual signal size is 64-bit.
 
 Elaborating module <SPIO>.
 
 Elaborating module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\LED_P2S_IO.v" Line 21: Empty module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)> remains a black box.
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\LED_P2S_IO.v" Line 21: Empty module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)> remains a black box.
 
 Elaborating module <clk_div>.
 
 Elaborating module <SAnti_jitter>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" Line 551: Assignment to Pulse ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\top.vf" Line 551: Assignment to Pulse ignored, since the identifier is never used
 
 Elaborating module <Counter_x>.
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\Counter_3_IO.v" Line 43: Assignment to M2 ignored, since the identifier is never used
-WARNING:HDLCompiler:634 - "C:\Users\pc\Desktop\OExp12-MSOC\Counter_3_IO.v" Line 36: Net <counter1[32]> does not have a driver.
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\Counter_3_IO.v" Line 43: Assignment to M2 ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "F:\labs-of-organization\lab12\Counter_3_IO.v" Line 36: Net <counter1[32]> does not have a driver.
 
 Elaborating module <Seg7_Dev_MUSER_top>.
 
@@ -322,13 +322,13 @@ Elaborating module <ScanSync>.
 Elaborating module <Seg_map>.
 
 Elaborating module <GND>.
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" Line 303: Assignment to G0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\top.vf" Line 303: Assignment to G0 ignored, since the identifier is never used
 
 Elaborating module <VCC>.
-WARNING:HDLCompiler:1127 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" Line 304: Assignment to V5 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\labs-of-organization\lab12\top.vf" Line 304: Assignment to V5 ignored, since the identifier is never used
 
 Elaborating module <PIO>.
-WARNING:HDLCompiler:1499 - "C:\Users\pc\Desktop\OExp12-MSOC\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
+WARNING:HDLCompiler:1499 - "F:\labs-of-organization\lab12\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
 
 Elaborating module <BUF>.
 
@@ -337,27 +337,27 @@ Elaborating module <BUF>.
 =========================================================================
 
 Synthesizing Unit <top>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\top.vf".
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 444: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 444: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 453: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 524: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 541: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 574: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\pc\Desktop\OExp12-MSOC\top.vf" line 574: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
+    Related source file is "F:\labs-of-organization\lab12\top.vf".
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 444: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 444: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 453: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 524: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 541: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 574: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\labs-of-organization\lab12\top.vf" line 574: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <top> synthesized.
 
 Synthesizing Unit <Multi_CPU>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Multi_CPU.v".
+    Related source file is "F:\labs-of-organization\lab12\Multi_CPU.v".
 WARNING:Xst:647 - Input <INT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <Multi_CPU> synthesized.
 
 Synthesizing Unit <M_ctrl>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\M_ctrl.v".
+    Related source file is "F:\labs-of-organization\lab12\M_ctrl.v".
         IF = 5'b00000
         signalsIF = 20'b10010100000010000000
         ID = 5'b00001
@@ -429,33 +429,33 @@ WARNING:Xst:737 - Found 1-bit latch for signal <ALU_operation<0>>. Latches may b
 Unit <M_ctrl> synthesized.
 
 Synthesizing Unit <M_datapath>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\M_datapath.v".
+    Related source file is "F:\labs-of-organization\lab12\M_datapath.v".
     Summary:
 Unit <M_datapath> synthesized.
 
 Synthesizing Unit <REG32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\REG32.v".
+    Related source file is "F:\labs-of-organization\lab12\REG32.v".
     Found 32-bit register for signal <Q>.
     Summary:
 	inferred  32 D-type flip-flop(s).
 Unit <REG32> synthesized.
 
 Synthesizing Unit <MUX4T1_5>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX4T1_5.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX4T1_5.v".
     Found 6-bit 4-to-1 multiplexer for signal <o> created at line 24.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX4T1_5> synthesized.
 
 Synthesizing Unit <MUX4T1_32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX4T1_32.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX4T1_32.v".
     Found 32-bit 4-to-1 multiplexer for signal <o> created at line 24.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX4T1_32> synthesized.
 
 Synthesizing Unit <Regs>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Regs.v".
+    Related source file is "F:\labs-of-organization\lab12\Regs.v".
     Found 992-bit register for signal <n0051[991:0]>.
     Found 32-bit 31-to-1 multiplexer for signal <R_addr_A[4]_register[31][31]_wide_mux_1_OUT> created at line 29.
     Found 32-bit 31-to-1 multiplexer for signal <R_addr_B[4]_register[31][31]_wide_mux_4_OUT> created at line 30.
@@ -465,25 +465,25 @@ Synthesizing Unit <Regs>.
 Unit <Regs> synthesized.
 
 Synthesizing Unit <Ext_32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Ext_imm16.v".
+    Related source file is "F:\labs-of-organization\lab12\Ext_imm16.v".
     Summary:
 	no macro.
 Unit <Ext_32> synthesized.
 
 Synthesizing Unit <MUX2T1_32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX2T1_32.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX2T1_32.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX2T1_32> synthesized.
 
 Synthesizing Unit <ALU>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\ALU.vf".
+    Related source file is "F:\labs-of-organization\lab12\ALU.vf".
     Summary:
 	no macro.
 Unit <ALU> synthesized.
 
 Synthesizing Unit <ADC32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\addc_32.v".
+    Related source file is "F:\labs-of-organization\lab12\addc_32.v".
     Found 33-bit adder for signal <n0013> created at line 30.
     Found 33-bit adder for signal <S> created at line 30.
     Summary:
@@ -491,30 +491,30 @@ Synthesizing Unit <ADC32>.
 Unit <ADC32> synthesized.
 
 Synthesizing Unit <and32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\and32.v".
+    Related source file is "F:\labs-of-organization\lab12\and32.v".
     Summary:
 	no macro.
 Unit <and32> synthesized.
 
 Synthesizing Unit <or32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\or32.v".
+    Related source file is "F:\labs-of-organization\lab12\or32.v".
     Summary:
 	no macro.
 Unit <or32> synthesized.
 
 Synthesizing Unit <xor32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\xor32.v".
+    Related source file is "F:\labs-of-organization\lab12\xor32.v".
     Summary:
 Unit <xor32> synthesized.
 
 Synthesizing Unit <nor32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\nor32.v".
+    Related source file is "F:\labs-of-organization\lab12\nor32.v".
     Summary:
 	no macro.
 Unit <nor32> synthesized.
 
 Synthesizing Unit <srl32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\srl32.v".
+    Related source file is "F:\labs-of-organization\lab12\srl32.v".
 WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <B<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
@@ -522,33 +522,33 @@ WARNING:Xst:647 - Input <B<0:0>> is never used. This port will be preserved and 
 Unit <srl32> synthesized.
 
 Synthesizing Unit <slt32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\slt32.v".
+    Related source file is "F:\labs-of-organization\lab12\slt32.v".
     Found 32-bit comparator greater for signal <A[31]_B[31]_LessThan_1_o> created at line 26
     Summary:
 	inferred   1 Comparator(s).
 Unit <slt32> synthesized.
 
 Synthesizing Unit <or_bit_32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\or_bit_32 .v".
+    Related source file is "F:\labs-of-organization\lab12\or_bit_32 .v".
     Summary:
 	no macro.
 Unit <or_bit_32> synthesized.
 
 Synthesizing Unit <MUX8T1_32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX8T1_32.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX8T1_32.v".
     Found 32-bit 8-to-1 multiplexer for signal <o> created at line 35.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX8T1_32> synthesized.
 
 Synthesizing Unit <SignalExt_32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\SignalExt_32.v".
+    Related source file is "F:\labs-of-organization\lab12\SignalExt_32.v".
     Summary:
 	no macro.
 Unit <SignalExt_32> synthesized.
 
 Synthesizing Unit <Multi_8CH32>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Multi_8CH32.v".
+    Related source file is "F:\labs-of-organization\lab12\Multi_8CH32.v".
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <cpu_blink>.
     Found 8-bit register for signal <cpu_point>.
@@ -558,44 +558,44 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 Unit <Multi_8CH32> synthesized.
 
 Synthesizing Unit <MUX8T1_8>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX8T1_8.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX8T1_8.v".
     Found 8-bit 8-to-1 multiplexer for signal <o> created at line 35.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX8T1_8> synthesized.
 
 Synthesizing Unit <SSeg7_Dev_MUSER_top>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\top.vf".
+    Related source file is "F:\labs-of-organization\lab12\top.vf".
     Summary:
 	no macro.
 Unit <SSeg7_Dev_MUSER_top> synthesized.
 
 Synthesizing Unit <MUX2T1_64>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX2T1_64.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX2T1_64.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX2T1_64> synthesized.
 
 Synthesizing Unit <HexTo8SEG>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\HexTo8SEG.v".
+    Related source file is "F:\labs-of-organization\lab12\HexTo8SEG.v".
     Summary:
 	no macro.
 Unit <HexTo8SEG> synthesized.
 
 Synthesizing Unit <MC14495_ZJU>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MC14495_ZJU.vf".
+    Related source file is "F:\labs-of-organization\lab12\MC14495_ZJU.vf".
     Summary:
 	no macro.
 Unit <MC14495_ZJU> synthesized.
 
 Synthesizing Unit <SSeg_map>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\SSeg_map.v".
+    Related source file is "F:\labs-of-organization\lab12\SSeg_map.v".
     Summary:
 	no macro.
 Unit <SSeg_map> synthesized.
 
 Synthesizing Unit <SPIO>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\SPIO.v".
+    Related source file is "F:\labs-of-organization\lab12\SPIO.v".
 WARNING:Xst:653 - Signal <GPIOf0<31:14>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 2-bit register for signal <counter_set>.
     Found 16-bit register for signal <LED>.
@@ -618,7 +618,7 @@ WARNING:Xst:653 - Signal <GPIOf0<31:14>> is used but never assigned. This source
 Unit <SPIO> synthesized.
 
 Synthesizing Unit <clk_div>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\clk_div.v".
+    Related source file is "F:\labs-of-organization\lab12\clk_div.v".
     Found 32-bit register for signal <clkdiv>.
     Found 32-bit adder for signal <clkdiv[31]_GND_72_o_add_0_OUT> created at line 30.
     Summary:
@@ -628,7 +628,7 @@ Synthesizing Unit <clk_div>.
 Unit <clk_div> synthesized.
 
 Synthesizing Unit <Counter_x>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Counter_3_IO.v".
+    Related source file is "F:\labs-of-organization\lab12\Counter_3_IO.v".
 WARNING:Xst:647 - Input <clk1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:653 - Signal <counter1<32>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -650,25 +650,25 @@ WARNING:Xst:653 - Signal <counter2<32>> is used but never assigned. This sourcel
 Unit <Counter_x> synthesized.
 
 Synthesizing Unit <Seg7_Dev_MUSER_top>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\top.vf".
+    Related source file is "F:\labs-of-organization\lab12\top.vf".
     Summary:
 	no macro.
 Unit <Seg7_Dev_MUSER_top> synthesized.
 
 Synthesizing Unit <MUX2T1_8>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\MUX2T1_8.v".
+    Related source file is "F:\labs-of-organization\lab12\MUX2T1_8.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX2T1_8> synthesized.
 
 Synthesizing Unit <MC14495_ZJU_MUSER_top>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\top.vf".
+    Related source file is "F:\labs-of-organization\lab12\top.vf".
     Summary:
 	no macro.
 Unit <MC14495_ZJU_MUSER_top> synthesized.
 
 Synthesizing Unit <ScanSync>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Scansync.v".
+    Related source file is "F:\labs-of-organization\lab12\Scansync.v".
     Found 8x4-bit Read Only RAM for signal <AN>
     Found 4-bit 8-to-1 multiplexer for signal <Hexo> created at line 30.
     Found 1-bit 8-to-1 multiplexer for signal <p> created at line 30.
@@ -679,7 +679,7 @@ Synthesizing Unit <ScanSync>.
 Unit <ScanSync> synthesized.
 
 Synthesizing Unit <Seg_map>.
-    Related source file is "C:\Users\pc\Desktop\OExp12-MSOC\Seg_map.v".
+    Related source file is "F:\labs-of-organization\lab12\Seg_map.v".
 WARNING:Xst:647 - Input <Hexs<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Hexs<11:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Hexs<15:13>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1679,12 +1679,12 @@ clk_100mhz     |    5.275|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 27.00 secs
-Total CPU time to Xst completion: 27.41 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 24.01 secs
  
 --> 
 
-Total memory usage is 4646580 kilobytes
+Total memory usage is 4646692 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  127 (   0 filtered)

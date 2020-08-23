@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\org\Exp08\Exception\Top_OExp08.ncd
-OUTFILE=C:\org\Exp08\Exception\Top_OExp08.bit
+INFILE=F:\labs-of-organization\Lab8\Exception\Top_OExp08.ncd
+OUTFILE=F:\labs-of-organization\Lab8\Exception\Top_OExp08.bit
 FAMILY=Kintex7
 PART=xc7k160t-2lffg676
-WORKINGDIR=C:\org\Exp08\Exception
+WORKINGDIR=F:\labs-of-organization\Lab8\Exception
 LICENSE=WebPack
 USER_INFO=__0_0_0

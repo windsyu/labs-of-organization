@@ -185,6 +185,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
+    <transform xil_pn:end_ts="1598162875" xil_pn:in_ck="154288899584" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="7333617237298376541" xil_pn:start_ts="1598162874">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1597036005" xil_pn:in_ck="154288899584" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="-3074763860663747726" xil_pn:start_ts="1597036004">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>

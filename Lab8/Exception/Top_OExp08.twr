@@ -2,8 +2,8 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2L
--n 3 -fastpaths -xml Top_OExp08.twx Top_OExp08.ncd -o Top_OExp08.twr
+D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2L -n
+3 -fastpaths -xml Top_OExp08.twx Top_OExp08.ncd -o Top_OExp08.twr
 Top_OExp08.pcf
 
 Design file:              Top_OExp08.ncd
@@ -608,7 +608,7 @@ Design statistics:
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Tue May 21 13:50:26 2019 
+Analysis completed Sun Aug 23 14:58:21 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:

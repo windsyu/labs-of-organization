@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-N2JQ3FL::  Sat Aug 22 15:27:59 2020
+DESKTOP-N2JQ3FL::  Sun Aug 23 14:35:18 2020
 
 par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
 
@@ -110,23 +110,23 @@ Phase  1  : 14037 unrouted;      REAL time: 18 secs
 
 Phase  2  : 12738 unrouted;      REAL time: 19 secs 
 
-Phase  3  : 6358 unrouted;      REAL time: 23 secs 
+Phase  3  : 6358 unrouted;      REAL time: 22 secs 
 
-Phase  4  : 6358 unrouted; (Setup:0, Hold:3433, Component Switching Limit:0)     REAL time: 30 secs 
+Phase  4  : 6358 unrouted; (Setup:0, Hold:3433, Component Switching Limit:0)     REAL time: 29 secs 
 
 Updating file: top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 34 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 33 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 34 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 33 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 34 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 33 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 34 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:2562, Component Switching Limit:0)     REAL time: 33 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 34 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
 Total REAL time to Router completion: 34 secs 
-Total CPU time to Router completion: 34 secs 
+Total CPU time to Router completion: 32 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -189,8 +189,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 36 secs 
-Total CPU time to PAR completion: 36 secs 
+Total REAL time to PAR completion: 35 secs 
+Total CPU time to PAR completion: 34 secs 
 
 Peak Memory Usage:  4972 MB
 

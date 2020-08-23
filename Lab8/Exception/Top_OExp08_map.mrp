@@ -10,7 +10,7 @@ Target Device  : xc7k160t
 Target Package : ffg676
 Target Speed   : -2l
 Mapper Version : kintex7 -- $Revision: 1.55 $
-Mapped Date    : Tue May 21 13:48:03 2019
+Mapped Date    : Sun Aug 23 14:55:48 2020
 
 Design Summary
 --------------
@@ -95,9 +95,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                4.49
 
-Peak Memory Usage:  5208 MB
-Total REAL time to MAP completion:  1 mins 13 secs 
-Total CPU time to MAP completion:   1 mins 10 secs 
+Peak Memory Usage:  5185 MB
+Total REAL time to MAP completion:  1 mins 19 secs 
+Total CPU time to MAP completion:   1 mins 16 secs 
 
 Table of Contents
 -----------------

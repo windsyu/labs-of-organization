@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-08-20T12:25:27</DateModified>
+  <DateModified>2020-08-23T14:07:51</DateModified>
   <ModuleName>top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>F:/Org_lab/Lab7/iseconfig/top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/Org_lab/Lab7\</ImplementationReportsDirectory>
+  <SavedFilePath>F:/labs-of-organization/Lab7/iseconfig/top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>F:/labs-of-organization/Lab7\</ImplementationReportsDirectory>
   <DateInitialized>2020-08-09T23:24:32</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

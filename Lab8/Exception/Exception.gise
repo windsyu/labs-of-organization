@@ -27,8 +27,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MC14495_ZJU.vf"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MUX4T1_4.vf"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MUX8T1_8.vf"/>
-    <file xil_pn:fileType="FILE_COREGEN_MISC" xil_pn:name="RAM_B.mif" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RAM_B.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="SCPU_INT.vf"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="SCPU_INT_drc.vf"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="SSeg7_Dev.vf"/>
@@ -79,7 +77,6 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="coregen.log"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="top_oexp08.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="top_oexp08.bit" xil_pn:subbranch="FPGAConfiguration"/>
@@ -110,11 +107,11 @@
       <outfile xil_pn:name="Seg7_Dev.vf"/>
       <outfile xil_pn:name="Top_OExp08.vf"/>
     </transform>
-    <transform xil_pn:end_ts="1558417633" xil_pn:in_ck="3828314289545628593" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-243010569265461895" xil_pn:start_ts="1558417633">
+    <transform xil_pn:end_ts="1598165690" xil_pn:in_ck="911016719092967904" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-243010569265461895" xil_pn:start_ts="1598165690">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="RAM_B.ngc"/>
-      <outfile xil_pn:name="RAM_B.v"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.v"/>
       <outfile xil_pn:name="ipcore_dir/ROM_D.ngc"/>
       <outfile xil_pn:name="ipcore_dir/ROM_D.v"/>
     </transform>
@@ -134,7 +131,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558417666" xil_pn:in_ck="429502779685197912" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7160650752411597958" xil_pn:start_ts="1558417633">
+    <transform xil_pn:end_ts="1598165732" xil_pn:in_ck="3436087960133898279" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7160650752411597958" xil_pn:start_ts="1598165690">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -157,16 +154,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558417682" xil_pn:in_ck="5900539079421040008" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4427410237226158123" xil_pn:start_ts="1558417666">
+    <transform xil_pn:end_ts="1598165747" xil_pn:in_ck="8391202537988372503" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4427410237226158123" xil_pn:start_ts="1598165732">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Top_OExp08.bld"/>
       <outfile xil_pn:name="Top_OExp08.ngd"/>
       <outfile xil_pn:name="Top_OExp08_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1558417759" xil_pn:in_ck="-4938798399825953481" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-1239519347495594584" xil_pn:start_ts="1558417682">
+    <transform xil_pn:end_ts="1598165829" xil_pn:in_ck="-4938798399825953481" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-1239519347495594584" xil_pn:start_ts="1598165747">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -181,7 +180,7 @@
       <outfile xil_pn:name="Top_OExp08_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1558417827" xil_pn:in_ck="973725611948888016" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8808472733522092617" xil_pn:start_ts="1558417759">
+    <transform xil_pn:end_ts="1598165903" xil_pn:in_ck="973725611948888016" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8808472733522092617" xil_pn:start_ts="1598165829">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Top_OExp08.ncd"/>
@@ -195,7 +194,7 @@
       <outfile xil_pn:name="Top_OExp08_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1558417903" xil_pn:in_ck="-264746885333133671" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="3160107541638749219" xil_pn:start_ts="1558417827">
+    <transform xil_pn:end_ts="1598165976" xil_pn:in_ck="-264746885333133671" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="3160107541638749219" xil_pn:start_ts="1598165903">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -216,11 +215,11 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1598081797" xil_pn:in_ck="8587424075188214979" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="7801172297726357142" xil_pn:start_ts="1598081796">
+    <transform xil_pn:end_ts="1598165983" xil_pn:in_ck="8587424075188214979" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="7801172297726357142" xil_pn:start_ts="1598165976">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558417827" xil_pn:in_ck="-4938798399825953613" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817468" xil_pn:start_ts="1558417806">
+    <transform xil_pn:end_ts="1598165903" xil_pn:in_ck="-4938798399825953613" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817468" xil_pn:start_ts="1598165880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Top_OExp08.twr"/>
