@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: Top_OExp08.prj
 
@@ -846,7 +846,7 @@ Top Level Output File Name         : Top_OExp08.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4380
+# BELS                             : 4241
 #      AND2                        : 202
 #      AND3                        : 99
 #      AND4                        : 81
@@ -854,13 +854,13 @@ Primitive and Black Box Usage:
 #      GND                         : 4
 #      INV                         : 111
 #      LUT1                        : 130
-#      LUT2                        : 73
-#      LUT3                        : 1175
-#      LUT4                        : 274
-#      LUT5                        : 319
-#      LUT6                        : 1187
+#      LUT2                        : 68
+#      LUT3                        : 1143
+#      LUT4                        : 260
+#      LUT5                        : 308
+#      LUT6                        : 1105
 #      MUXCY                       : 247
-#      MUXF7                       : 57
+#      MUXF7                       : 62
 #      OR2                         : 79
 #      OR3                         : 27
 #      OR4                         : 68
@@ -895,14 +895,14 @@ Selected Device : 7k160tffg676-2l
 
 Slice Logic Utilization: 
  Number of Slice Registers:            1585  out of  202800     0%  
- Number of Slice LUTs:                 3269  out of  101400     3%  
-    Number used as Logic:              3269  out of  101400     3%  
+ Number of Slice LUTs:                 3125  out of  101400     3%  
+    Number used as Logic:              3125  out of  101400     3%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   3420
-   Number with an unused Flip Flop:    1835  out of   3420    53%  
-   Number with an unused LUT:           151  out of   3420     4%  
-   Number of fully used LUT-FF pairs:  1434  out of   3420    41%  
+ Number of LUT Flip Flop pairs used:   3276
+   Number with an unused Flip Flop:    1691  out of   3276    51%  
+   Number with an unused LUT:           151  out of   3276     4%  
+   Number of fully used LUT-FF pairs:  1434  out of   3276    43%  
    Number of unique control sets:        32
 
 IO Utilization: 
@@ -960,9 +960,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 12.967ns (Maximum Frequency: 77.121MHz)
+   Minimum period: 12.145ns (Maximum Frequency: 82.338MHz)
    Minimum input arrival time before clock: 2.109ns
-   Maximum output required time after clock: 14.247ns
+   Maximum output required time after clock: 13.836ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1063,28 +1063,28 @@ Delay:               2.221ns (Levels of Logic = 35)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clk_CPU'
-  Clock period: 12.967ns (frequency: 77.121MHz)
-  Total number of paths / destination ports: 684418161 / 2404
+  Clock period: 12.145ns (frequency: 82.338MHz)
+  Total number of paths / destination ports: 328280595 / 2404
 -------------------------------------------------------------------------
-Delay:               6.483ns (Levels of Logic = 40)
-  Source:            XLXI_29/XLXI_9/XLXI_2/Q_7 (FF)
+Delay:               6.073ns (Levels of Logic = 40)
+  Source:            XLXI_29/XLXI_9/XLXI_2/Q_5 (FF)
   Destination:       U5/cpu_point_0 (FF)
   Source Clock:      Clk_CPU rising
   Destination Clock: Clk_CPU falling
 
-  Data Path: XLXI_29/XLXI_9/XLXI_2/Q_7 to U5/cpu_point_0
+  Data Path: XLXI_29/XLXI_9/XLXI_2/Q_5 to U5/cpu_point_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             66   0.236   0.749  XLXI_29/XLXI_9/XLXI_2/Q_7 (XLXI_29/XLXI_9/XLXI_2/Q_7)
-     begin scope: 'XLXI_26:a<5>'
-     LUT6:I0->O            1   0.043   0.522  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52111 (U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int5211)
-     LUT4:I0->O            1   0.043   0.495  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52112 (U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52111)
-     LUT4:I1->O          268   0.043   0.524  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52118 (spo<17>)
+     FDC:C->Q             14   0.236   0.675  XLXI_29/XLXI_9/XLXI_2/Q_5 (XLXI_29/XLXI_9/XLXI_2/Q_5)
+     begin scope: 'XLXI_26:a<3>'
+     LUT5:I0->O            1   0.043   0.350  spo<14>_SW0 (N8)
+     LUT6:I5->O          321   0.043   0.589  spo<14> (spo<13>)
      end scope: 'XLXI_26:spo<17>'
-     LUT6:I5->O            1   0.043   0.522  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81)
-     LUT6:I2->O            3   0.043   0.507  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3)
-     LUT6:I3->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0>)
+     LUT6:I4->O            1   0.043   0.522  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81)
+     LUT6:I2->O            2   0.043   0.410  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3)
+     LUT6:I4->O            3   0.043   0.362  XLXI_29/XLXI_9/XLXI_4/Mmux_o110 (XLXI_29/XLXI_9/XLXN_2<0>)
+     LUT6:I5->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0>)
      MUXCY:S->O            1   0.238   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0>)
      MUXCY:CI->O           1   0.013   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1>)
      MUXCY:CI->O           1   0.013   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2>)
@@ -1121,15 +1121,15 @@ Delay:               6.483ns (Levels of Logic = 40)
      begin scope: 'U5:EN'
      FDE:CE                    0.161          cpu_point_0
     ----------------------------------------
-    Total                      6.483ns (1.606ns logic, 4.878ns route)
-                                       (24.8% logic, 75.2% route)
+    Total                      6.073ns (1.605ns logic, 4.467ns route)
+                                       (26.4% logic, 73.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_29/XLXI_10/_n0095'
-  Clock period: 6.487ns (frequency: 154.161MHz)
-  Total number of paths / destination ports: 2654 / 1
+  Clock period: 5.903ns (frequency: 169.403MHz)
+  Total number of paths / destination ports: 1374 / 1
 -------------------------------------------------------------------------
-Delay:               6.487ns (Levels of Logic = 40)
+Delay:               5.903ns (Levels of Logic = 40)
   Source:            XLXI_29/XLXI_10/ALUSrc_B (LATCH)
   Destination:       XLXI_29/XLXI_10/Branch_0 (LATCH)
   Source Clock:      XLXI_29/XLXI_10/_n0095 falling
@@ -1139,11 +1139,11 @@ Delay:               6.487ns (Levels of Logic = 40)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q              69   0.330   0.632  XLXI_29/XLXI_10/ALUSrc_B (XLXI_29/XLXI_10/ALUSrc_B)
-     LUT3:I0->O            1   0.043   0.495  XLXI_29/XLXI_9/XLXI_1/GND_38_o_GND_38_o_equal_4_o<4>1_SW5 (N142)
-     LUT6:I3->O            1   0.043   0.522  XLXI_29/XLXI_9/XLXI_1/Mmux_rdata_B121_SW1 (N89)
-     LUT6:I2->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<1>)
-     MUXCY:S->O            1   0.238   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1>)
+     LD:G->Q              32   0.330   0.733  XLXI_29/XLXI_10/ALUSrc_B (XLXI_29/XLXI_10/ALUSrc_B)
+     LUT6:I1->O            3   0.043   0.362  XLXI_29/XLXI_9/XLXI_4/Mmux_o110 (XLXI_29/XLXI_9/XLXN_2<0>)
+     LUT6:I5->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0>)
+     MUXCY:S->O            1   0.238   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<3> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<3>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<4> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<4>)
@@ -1182,8 +1182,8 @@ Delay:               6.487ns (Levels of Logic = 40)
      LUT6:I4->O            1   0.043   0.000  XLXI_29/XLXI_10/OPcode[5]_Fun[5]_Select_57_o<0>1 (XLXI_29/XLXI_10/OPcode[5]_Fun[5]_Select_57_o)
      LD:D                     -0.034          XLXI_29/XLXI_10/Branch_0
     ----------------------------------------
-    Total                      6.487ns (1.609ns logic, 4.878ns route)
-                                       (24.8% logic, 75.2% route)
+    Total                      5.903ns (1.579ns logic, 4.324ns route)
+                                       (26.7% logic, 73.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U9/clk1'
@@ -1340,26 +1340,26 @@ Offset:              0.658ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk_CPU'
-  Total number of paths / destination ports: 460741239 / 19
+  Total number of paths / destination ports: 220976554 / 19
 -------------------------------------------------------------------------
-Offset:              14.247ns (Levels of Logic = 57)
-  Source:            XLXI_29/XLXI_9/XLXI_2/Q_7 (FF)
+Offset:              13.836ns (Levels of Logic = 57)
+  Source:            XLXI_29/XLXI_9/XLXI_2/Q_5 (FF)
   Destination:       SEGMENT<5> (PAD)
   Source Clock:      Clk_CPU rising
 
-  Data Path: XLXI_29/XLXI_9/XLXI_2/Q_7 to SEGMENT<5>
+  Data Path: XLXI_29/XLXI_9/XLXI_2/Q_5 to SEGMENT<5>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             66   0.236   0.749  XLXI_29/XLXI_9/XLXI_2/Q_7 (XLXI_29/XLXI_9/XLXI_2/Q_7)
-     begin scope: 'XLXI_26:a<5>'
-     LUT6:I0->O            1   0.043   0.522  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52111 (U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int5211)
-     LUT4:I0->O            1   0.043   0.495  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52112 (U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52111)
-     LUT4:I1->O          268   0.043   0.524  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int52118 (spo<17>)
+     FDC:C->Q             14   0.236   0.675  XLXI_29/XLXI_9/XLXI_2/Q_5 (XLXI_29/XLXI_9/XLXI_2/Q_5)
+     begin scope: 'XLXI_26:a<3>'
+     LUT5:I0->O            1   0.043   0.350  spo<14>_SW0 (N8)
+     LUT6:I5->O          321   0.043   0.589  spo<14> (spo<13>)
      end scope: 'XLXI_26:spo<17>'
-     LUT6:I5->O            1   0.043   0.522  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81)
-     LUT6:I2->O            3   0.043   0.507  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3)
-     LUT6:I3->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0>)
+     LUT6:I4->O            1   0.043   0.522  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_81)
+     LUT6:I2->O            2   0.043   0.410  XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3 (XLXI_29/XLXI_9/XLXI_1/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_3)
+     LUT6:I4->O            3   0.043   0.362  XLXI_29/XLXI_9/XLXI_4/Mmux_o110 (XLXI_29/XLXI_9/XLXN_2<0>)
+     LUT6:I5->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0>)
      MUXCY:S->O            1   0.238   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2>)
@@ -1413,14 +1413,14 @@ Offset:              14.247ns (Levels of Logic = 57)
      LUT3:I2->O            1   0.043   0.339  U61/XLXI_8/Mmux_o4 (SEGMENT_3_OBUF)
      OBUF:I->O                 0.000          SEGMENT_3_OBUF (SEGMENT<3>)
     ----------------------------------------
-    Total                     14.247ns (2.885ns logic, 11.362ns route)
-                                       (20.2% logic, 79.8% route)
+    Total                     13.836ns (2.885ns logic, 10.951ns route)
+                                       (20.9% logic, 79.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_29/XLXI_10/_n0095'
-  Total number of paths / destination ports: 1249197 / 8
+  Total number of paths / destination ports: 642957 / 8
 -------------------------------------------------------------------------
-Offset:              12.528ns (Levels of Logic = 52)
+Offset:              11.945ns (Levels of Logic = 52)
   Source:            XLXI_29/XLXI_10/ALUSrc_B (LATCH)
   Destination:       SEGMENT<5> (PAD)
   Source Clock:      XLXI_29/XLXI_10/_n0095 falling
@@ -1429,11 +1429,11 @@ Offset:              12.528ns (Levels of Logic = 52)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q              69   0.330   0.632  XLXI_29/XLXI_10/ALUSrc_B (XLXI_29/XLXI_10/ALUSrc_B)
-     LUT3:I0->O            1   0.043   0.495  XLXI_29/XLXI_9/XLXI_1/GND_38_o_GND_38_o_equal_4_o<4>1_SW5 (N142)
-     LUT6:I3->O            1   0.043   0.522  XLXI_29/XLXI_9/XLXI_1/Mmux_rdata_B121_SW1 (N89)
-     LUT6:I2->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<1>)
-     MUXCY:S->O            1   0.238   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1>)
+     LD:G->Q              32   0.330   0.733  XLXI_29/XLXI_10/ALUSrc_B (XLXI_29/XLXI_10/ALUSrc_B)
+     LUT6:I1->O            3   0.043   0.362  XLXI_29/XLXI_9/XLXI_4/Mmux_o110 (XLXI_29/XLXI_9/XLXN_2<0>)
+     LUT6:I5->O            1   0.043   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_lut<0>)
+     MUXCY:S->O            1   0.238   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<0>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<1>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<2>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<3> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<3>)
      MUXCY:CI->O           1   0.014   0.000  XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<4> (XLXI_29/XLXI_9/XLXI_3/ADC_32/Madd_S_Madd_cy<4>)
@@ -1485,8 +1485,8 @@ Offset:              12.528ns (Levels of Logic = 52)
      LUT3:I2->O            1   0.043   0.339  U61/XLXI_8/Mmux_o4 (SEGMENT_3_OBUF)
      OBUF:I->O                 0.000          SEGMENT_3_OBUF (SEGMENT<3>)
     ----------------------------------------
-    Total                     12.528ns (2.837ns logic, 9.692ns route)
-                                       (22.6% logic, 77.4% route)
+    Total                     11.945ns (2.807ns logic, 9.138ns route)
+                                       (23.5% logic, 76.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U8/clkdiv_6'
@@ -1534,10 +1534,10 @@ Clock to Setup on destination clock Clk_CPU
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-Clk_CPU               |    7.776|         |    6.483|         |
+Clk_CPU               |    7.365|         |    6.073|         |
 U8/clkdiv_6           |    1.917|         |    0.897|         |
 U9/BTN_OK<0>          |    1.444|         |         |         |
-XLXI_29/XLXI_10/_n0095|         |    6.057|    4.764|         |
+XLXI_29/XLXI_10/_n0095|         |    5.473|    4.181|         |
 clk_100mhz            |    1.894|         |    1.720|         |
 ----------------------+---------+---------+---------+---------+
 
@@ -1584,8 +1584,8 @@ Clock to Setup on destination clock XLXI_29/XLXI_10/_n0095
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-Clk_CPU               |         |         |    8.206|         |
-XLXI_29/XLXI_10/_n0095|         |         |    6.487|         |
+Clk_CPU               |         |         |    7.795|         |
+XLXI_29/XLXI_10/_n0095|         |         |    5.903|         |
 ----------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk_100mhz
@@ -1593,23 +1593,23 @@ Clock to Setup on destination clock clk_100mhz
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-Clk_CPU               |   11.293|    4.668|    6.698|         |
+Clk_CPU               |   10.883|    4.668|    6.287|         |
 M4/push               |    1.928|         |         |         |
 U8/clkdiv_6           |    5.429|         |         |         |
 U9/clk1               |    1.100|         |         |         |
-XLXI_29/XLXI_10/_n0095|         |    9.575|    4.979|         |
+XLXI_29/XLXI_10/_n0095|         |    8.991|    4.396|         |
 clk_100mhz            |    5.433|         |         |         |
 ----------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 36.00 secs
-Total CPU time to Xst completion: 35.77 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.75 secs
  
 --> 
 
-Total memory usage is 4681092 kilobytes
+Total memory usage is 4648080 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   88 (   0 filtered)

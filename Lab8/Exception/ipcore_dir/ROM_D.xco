@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Sun Aug 23 06:49:43 2020
+# Date: Sun Aug 23 10:12:28 2020
 #
 ##############################################################
 #
@@ -40,7 +40,7 @@ SELECT Distributed_Memory_Generator xilinx.com:ip:dist_mem_gen:7.2
 # END Select
 # BEGIN Parameters
 CSET ce_overrides=ce_overrides_sync_controls
-CSET coefficient_file=F:\labs-of-organization\Lab8\Exception\SOC_SCPU_INT.coe
+CSET coefficient_file=C:\Users\pc\Desktop\eret.coe
 CSET common_output_ce=false
 CSET common_output_clk=false
 CSET component_name=ROM_D
@@ -70,4 +70,4 @@ CSET sync_reset_qspo=false
 MISC pkg_timestamp=2012-11-21T20:07:40Z
 # END Extra information
 GENERATE
-# CRC: 94cca1c5
+# CRC: 1a4a2395
